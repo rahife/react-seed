@@ -1,0 +1,7 @@
+language: node_js
+notifications:
+  email:
+    recipients:
+      - test1134dfadsf@mailinator.com
+    on_success: always # default: change
+    on_failure: always # default: always
