@@ -6,7 +6,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "flow": "flow",
+    "commitizen": "git-cz"
   },
   "husky": {
     "hooks": {
@@ -28,12 +29,19 @@
     "not ie <= 11",
     "not op_mini all"
   ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "dependencies": {
+    "flow-bin": "^0.82.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.4"
   },
   "devDependencies": {
+    "commitizen": "^3.0.2",
     "husky": "^1.1.1",
     "lint-staged": "^7.3.0",
     "prettier": "^1.14.3"
